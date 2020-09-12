@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "idCategory": 0,
+        "title": "DX.CO",
+        "description": "A DX.CO conecta as soluções do hub e cria novas ferramentas para promover a transformação digital dos negócios.",
+        "price": 1200
+    },
+    {
+        "_id": 2,
+        "idCategory": 0,
+        "title": "Ground Sportech",
+        "description": "A Ground é a plataforma digital de esportes do hub. Aproxima torcidas, clubes, marcas e arenas esportivas com soluções que engajam as pessoas através da paixão.",
+        "price": 350
+    },
+    {
+        "_id": 3,
+        "idCategory": 0,
+        "title": "Iris",
+        "description": "A Iris data driven marketing permite que grandes, médias e pequenas empresas utilizem dados para se relacionar de forma ultrassegmentada com seus clientes.",
+        "price": 97
+    },
+    {
+        "_id": 4,
+        "idCategory": 0,
+        "title": "Phi",
+        "description": "A Phi é uma fintech as a service. Possibilita que novas fintechs sejam criadas e conecta os negócios aos meios de pagamento.",
+        "price": 3.14
+    },
+    {
+        "_id": 5,
+        "idCategory": 0,
+        "title": "Share Eat",
+        "description": "A Share Eat é uma plataforma de gastronomia que ajuda as pessoas a responderem um dilema diário: o que vamos comer e beber hoje? Isso é feito por meio de curadoria exponencial, análise de comportamento do consumidor e com endosso de experts locais.",
+        "price": 54
+    },
+    {
+        "_id": 6,
+        "idCategory": 0,
+        "title": "Uhuu",
+        "description": "A Uhuu é a nossa plataforma de entretenimento 360º que transforma a experiência do consumidor agregando produtos e serviços antes, durante e depois do evento. Utiliza a inteligência de dados como principal ponto de contato e geração de valor entre produtores, marcas e artistas.",
+        "price": 102
+    }
+]
