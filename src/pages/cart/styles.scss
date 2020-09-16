@@ -1,0 +1,105 @@
+@import '../../variables';
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 1000px;
+    margin: auto;
+    .productlist{
+        background-color: $secundary-color;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 2px solid $primary-color;
+        &-empty{
+            text-align: center;
+        }
+        .marg{
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+            .item{
+                display: flex;
+                margin-top: 10px;
+                justify-content: space-between;
+                    &-image{
+                    max-width: 250px;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        background-color: $primary-color;
+                        max-width: 250px;
+                        border-radius: 10px;
+                    }
+                }
+                &-id{
+                    margin-left: 40px;
+                    margin: 10px;
+                }
+                &-quantity{
+                    margin: 10px;
+                    width: 80px;
+                    font-weight: bold;
+                    .buttons{
+                        margin: 10px 10px 10px 0px;
+                        display: flex;
+                        justify-content: space-between;
+                        button{
+                            width: 22px;
+                            height: 22px;
+                            border-radius: 20px;
+                            background-color: $primary-color;
+                            color: $background;
+                            font-size: 15px;
+                            font-weight: 900;
+                            border: 1px solid transparent;
+                            @include transition-ease;
+                            &:hover{
+                                color: black;
+                                background-color: $background;
+                            }
+                            &:active{
+                                border: 1px solid white;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .checkout{
+        margin: 30px;
+        border: 2px solid $primary-color;
+        border-radius: 5px;
+        background-color: $secundary-color;
+        &-body{
+            padding: 10px;
+            *{
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            button{
+                background-color: $third-color;
+                border: 1px solid $primary-color;
+                border-radius: 5px;
+                font-weight:800;
+                padding: 2px;
+                @include transition-ease;
+                &:hover{
+                    color: $background;
+                    border-color: $background;
+                    background-color: $primary-color;
+                }
+                &:active{
+                    border-color: $third-color;
+                    background-color: $secundary-color;
+                }
+            }
+        }
+    }
+}
+
+
+

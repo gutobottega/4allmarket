@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.popup{
+    animation: open 1s;
+    right: 80px;
+    position: absolute;
+    font-size: auto;
+    top: 30px;
+    color: $secundary-color;
+    background: linear-gradient(to top right, $primary-color, $primary-color, $primary-color, #784D99);
+    width: 255px;
+    height: auto;
+    border-radius: 10px;
+    border-top-right-radius: 0px; 
+    padding: 10px;
+    .content{
+        display: flex;
+        max-width: 250px;
+        animation: openimg 1s;
+        .item{
+            background-color: #424242;
+            border: 1px solid white;
+            margin: 10px;
+            padding: 5px;
+            color: $secundary-color;
+            border-radius: 10px;
+            img{
+                animation: openimg 1s;
+                filter:opacity(1) brightness(1);
+            }
+            &-content{
+                font-size: 15px;
+            }
+        }
+    }
+}

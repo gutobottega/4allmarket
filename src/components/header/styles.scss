@@ -1,0 +1,50 @@
+@import '../../variables';
+
+.main{
+    .main-header {
+        border-bottom: 3px solid $background;
+        position: sticky;
+        margin: auto;
+        max-width: 1000px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        color: $secundary-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            height: 45px;
+            border-radius: 15px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            filter: brightness(400%);
+        }
+        .icon{
+            position: relative;
+            a{
+                margin-right: 20px;
+                height: 30px;
+                background: $secundary-color;
+                width: 55px;
+                text-decoration: none;
+                border-radius: 10px;
+                border: 2px solid $primary-color;
+                color: $primary-color;
+                display: flex;
+                justify-content: space-between;
+                padding: 3px;
+            }
+            :hover{
+                background-color: $primary-color;
+                color: $background;
+                border-color: $background;
+            }
+            :active{
+                background-color: $background;
+                color: $secundary-color;
+                border-color: $primary-color;
+            }
+        }
+    }
+}

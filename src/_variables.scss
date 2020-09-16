@@ -1,0 +1,22 @@
+$primary-color: #333333;
+$secundary-color: rgb(224, 224, 224);
+$third-color: #CCCCCC;
+$accent-color: #fff;
+$background: #9d65c9;
+$text-color: #1d1d1f;
+
+@mixin transition-ease {
+    transition: all .2s ease-out;
+}
+
+@keyframes open {
+    from {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        top:45px;
+        filter:opacity(0);
+    }
+}
+

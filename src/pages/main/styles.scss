@@ -1,0 +1,107 @@
+@import '../../variables';
+
+.main {
+    padding: 10px;
+    .select-container {
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        max-width: 1000px;
+        min-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: $secundary-color;
+        border-radius: 25px;
+        select{
+            color:$third-color;
+            appearance: menulist;
+            margin-left: 10px;
+            width: 120px;
+            background-color: $primary-color;
+            font-weight: bold;
+            font-size: medium;
+            border-radius: 10px;
+            padding-left: 10px;
+            box-shadow: 2px 2px 8px -2px;
+            border-color: $primary-color;
+            &:active{
+                box-shadow: 2px 2px 5px -2px black;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    .box{
+        margin: auto;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        background: $secundary-color;
+        .card{
+            margin: 10px;
+            padding: 10px;
+            align-items: center;
+            display: flex;
+            border-bottom: 1px solid $primary-color;
+            border-spacing: 100px;
+            &-content {
+                color: $primary-color;
+                margin: 0 0 20px;
+                display: flex;
+                &-image{
+                    margin: auto;
+                    background-color: $primary-color;
+                    border-radius: 5%;
+                }
+                .content{
+                    margin-left: 20px;
+                    justify-content: space-between;
+                    .title{
+                        font-size: xx-large;
+                        font-weight: bold;
+                        margin: 0px 20px;
+                    }
+                    p{
+                        margin: 10px 80px 10px 10px;
+                    }
+                }
+                .button-content{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 10px;
+                    margin-right: 40px;
+                    .button{
+                        color: $secundary-color;
+                        width: 30px;
+                        height: 30px;
+                        background-color: $primary-color;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        @include transition-ease;
+                        &:hover{
+                            color: $background;
+                            border: 2px solid $background;
+                        }
+                        &:active{
+                            color: $secundary-color;
+                            border: 3px solid $primary-color;
+                            background-color: $background;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }  
+        }
+    }
+}
+
+
+

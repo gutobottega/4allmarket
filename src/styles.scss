@@ -1,0 +1,19 @@
+@import './_variables';
+@import url('https://fonts.googleapis.com/css?family=Kufam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kufam';
+}
+
+.App {
+    height: 100vh;
+    background: linear-gradient(to right,#281933, $background, #281933  );
+    overflow: auto;
+}
